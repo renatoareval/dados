@@ -35,11 +35,11 @@ public class TestaFIla {
         TestaFIla fila = new TestaFIla();
 
 
-        fila.enqueue("JOAO");
-        fila.enqueue("ZE");
-        fila.enqueue("JUCA");
-        fila.enqueue("MARIA");
-        fila.enqueue("ANA");
+        fila.enqueue("1");
+        fila.enqueue("2");
+        fila.enqueue("3");
+        fila.enqueue("4");
+        fila.enqueue("5");
 
         System.out.println("Primeiro da fila " +fila.get());
         fila.dequeue();
